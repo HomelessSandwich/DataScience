@@ -1,8 +1,14 @@
 # Book settings
-title: My sample book
-author: The Jupyter Book Community
+title: Oli's Data Science Book
+author: Oliver Wilkins
 logo: logo.png
 
 latex:
   latex_documents:
     targetname: book.tex
+    
+# Information about where the book exists on the web
+repository:
+  url: https://github.com/HomelessSandwich/DataScience
+html:
+  use_repository_button: true
